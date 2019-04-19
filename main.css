@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-repeat: no-repeat;
+    background-image: url("images/bookBackground.jpg");
+    background-size:cover;
+    height:100vh;
+    font-size:28px;
+    font-family: Cormorant;
+    color:white;
+    text-shadow: 2px 2px 2px rgb(87, 7, 7);
+    text-align:center;
+    background-color:black;
+}
+.layer{
+    position: absolute;
+    width:100%;
+    height: 100vh;
+    background-color: #00000041;
+}
+header{
+    position:relative;
+    z-index: 99;
+    font-size:50px;
+    color:white;
+    text-shadow: 3px 3px 3px rgb(87, 7, 7);
+}
+
+main {
+    position: relative;
+    z-index:99;    
+}
+
+p, span{
+    font-size: 28px;
+}
+
+.column {
+    border:1px solid black;
+    background: rgba(7, 7, 7, 0.801);
+    float: left;
+    padding: 1.5% 1.5%;
+    margin: 4% 5%;
+    
+}
+.left{
+    width: 50%;
+    height: 350px;
+    overflow-y:scroll;
+}
+.right{
+    width:30%;
+    height:350px;
+    overflow-y:scroll;
+}
+
+left::-webkit-scrollbar {
+    background-color:rgba(87, 7, 7, 0.4);
+} 
+
+form{
+    font-size:35px;;
+}
+input{
+    border: 3px solid white;
+    padding: 8px 13px;
+    margin: 2% 1%;
+    font-size:28px;
+    background: rgba(233, 225, 225, 0.788);
+    color: rgba(87,7,7);
+    text-align:center;
+}
+
+.link a{
+    text-shadow:none;
+    color:white;
+}
+
+@media only screen and (max-width:800px) {
+    .left{
+        width:90%;
+    }
+    .right{
+        width:90%;
+    }
+    input{
+        width:35%;
+        font-size:20px;
+    }
+    .results h1 {
+        font-size:40px;
+    }
+    .results img{
+        width:150px;
+    }
+    label{
+        font-size:45px;
+    }
+    label[for=Book-Topic] {
+       
+    }
+    h1{
+        font-size:35px;
+    }
+    p {
+        font-size:24px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    input {
+        font-size: 20px;
+        width:90%;
+    }
+    label {
+        font-size: 30px;
+    }
+    .results h1 {
+        font-size:24px;
+    }
+    .results p{
+        font-size: 20px;
+    }
+    .results img{
+        width:150px;
+    }
+
+}
+
+@media only screen and (max-width:365px) { 
+    .left{
+        width: 90%;
+    }
+    .right{
+        width:90%;
+    }
+    input{
+        width:40%;
+        font-size:20px;
+        
+    }
+    label{
+        font-size:35px;
+    }
+    label[for=Book-Topic] {
+        margin-right: 0;
+    }
+    h1{
+        font-size:60px;
+        margin-top: 15px;
+    }
+    p {
+        font-size:20px;
+    }
+    .results h1 {
+        font-size:50px;
+    }
+    .results img{
+        width:150px;
+    }
+}
+
