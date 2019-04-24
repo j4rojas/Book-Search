@@ -35,7 +35,7 @@ main {
 }
 
 p, span{
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .column {
@@ -62,7 +62,8 @@ left::-webkit-scrollbar {
 } 
 
 form{
-    font-size:35px;;
+    font-size:50px;
+    
 }
 input{
     border: 3px solid white;
@@ -91,7 +92,7 @@ input{
         font-size:20px;
     }
     .results h1 {
-        font-size:40px;
+        font-size:50px;
     }
     .results img{
         width:150px;
@@ -103,14 +104,16 @@ input{
        
     }
     h1{
-        font-size:35px;
+        font-size:45px;
     }
     p {
-        font-size:24px;
+        font-size:25px;
     }
 }
 
 @media only screen and (max-width:600px) {
+    body {
+    }
     input {
         font-size: 20px;
         width:90%;
@@ -121,11 +124,12 @@ input{
     .results h1 {
         font-size:24px;
     }
-    .results p{
+    .results p, span{
         font-size: 20px;
     }
     .results img{
         width:150px;
+        margin-top:15px;
     }
 
 }
@@ -138,7 +142,7 @@ input{
         width:90%;
     }
     input{
-        width:40%;
+        width:85%;
         font-size:20px;
         
     }
@@ -156,7 +160,7 @@ input{
         font-size:20px;
     }
     .results h1 {
-        font-size:50px;
+        font-size:35px;
     }
     .results img{
         width:150px;
